@@ -1,0 +1,251 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#clock {
+  color: #222222;
+  font-size: 8vw;
+  text-align: center;
+  margin-top: 3%;
+  text-shadow: 6px 6px 3px rgba(0,0,0, 0.4) ;
+  
+}
+
+#date {
+  color: #222222;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 3%;
+}
+
+#clockNight {
+  color: #ececec;
+  font-size: 8vw;
+  text-align: center;
+  margin-top: 3%;
+  text-shadow: 6px 6px 3px rgba(0,0,0, 0.4) ;
+  
+}
+
+#dateNight {
+  color: #ececec;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.loadingBackground {
+  background-image: url('./img/loading.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+.Clouds {
+  background-image: url('./img/clouds.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.CloudsNight {
+  background-image: url('./img/cloudsnight.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.Clear {
+  background-image: url('./img/clear.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.ClearNight {
+  background-image: url('./img/clearNight.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.Snow {
+  background-image: url('./img/snow.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.SnowNight {
+  background-image: url('./img/snowNight.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.Rain {
+  background-image: url('./img/rain.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.RainNight {
+  background-image: url('./img/rainNight.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.Drizzle {
+  background-image: url('./img/drizzle.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.DrizzleNight {
+  background-image: url('./img/rainNight.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.Thunderstorm {
+  background-image: url('./img/thunderstorm.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.ThunderstormNight {
+  background-image: url('./img/thunderNight.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+}
+
+.preload {
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 20%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#credit {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#credit a {
+  text-decoration: none;
+  color: black;
+}
+
+#credit a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  border-radius: 10px;
+  border: 1px black solid;
+  margin-top: 3%;
+  padding: 1% 0;
+  
+}
+
+.title h1 {
+  font-size: 3vw;
+  vertical-align: middle;
+  margin: 0;
+  color: #222222;
+}
+
+.app {
+  width: 68.5%;
+  margin: 10px auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: 1px black solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.app ul {
+  padding: 10px 0;
+  
+}
+
+.app ul li {
+  font-size: 3vw;
+  text-align: start;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+#temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  color: #222222;
+  font-size: 8vw;
+  vertical-align: middle;
+  text-align: center;
+  text-shadow: 6px 6px 3px rgba(0,0,0, 0.4) ;
+  
+}
+
+.button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	border: none;     
+}
+
+.button:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+
+
+
